@@ -48,12 +48,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\NavMesh\PlayerInput.cs" />
     <Compile Include="Assets\Player\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\Player.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\AgentAnimation.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\ResetBool.cs" />
     <Compile Include="Assets\Scripts\AnimatorManager.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\AgentMover.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
