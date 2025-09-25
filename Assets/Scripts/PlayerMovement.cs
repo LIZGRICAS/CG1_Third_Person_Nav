@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody playerRigidbody;
     AnimatorManager animatorManager;
 
-    public float inAirTime;
+    public float inAirTime; //variable para controlar el tiempo en el aire
     public float leapingVelocity;
     public float fallingVelocity;
     public float rayCastHeightOffset = 0.5f;
